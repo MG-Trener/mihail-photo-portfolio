@@ -53,9 +53,43 @@ export default function Home() {
                 Смотреть работы
               </button>
 
-              <button className="px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition duration-300">
-                Связаться
-              </button>
+              <div className="relative group">
+
+  <button className="px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition duration-300">
+    Связаться
+  </button>
+
+  <div className="absolute top-full left-0 mt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
+
+    <div className="bg-black/90 backdrop-blur-xl border border-white/10 rounded-2xl p-3 flex flex-col gap-2 min-w-[220px]">
+<a
+  href="https://instagram.com/mihagavr"
+  target="_blank"
+  className="px-4 py-3 rounded-xl hover:bg-white/10 transition"
+>
+  Instagram
+</a>
+      <a
+        href="https://t.me/mihagavr"
+        target="_blank"
+        className="px-4 py-3 rounded-xl hover:bg-white/10 transition"
+      >
+        Telegram
+      </a>
+
+      <a
+        href="https://wa.me/77078709384"
+        target="_blank"
+        className="px-4 py-3 rounded-xl hover:bg-white/10 transition"
+      >
+        WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
 
             </div>
 			<div className="mt-20">
